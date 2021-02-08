@@ -28,6 +28,7 @@ const Skills = (props) => {
         .from('.section-title-skills', {x: -50, opacity: 0, duration: 1})
         .from('.title-border-skills', {x: 50, opacity: 0, duration: 1}, "-=1")
         .from('.skills-ctn', {opacity: 0, y: 50})
+        .from('.skills-text', {opacity: 0})
     }, [])
 
     useEffect(() => {
@@ -132,6 +133,8 @@ const Skills = (props) => {
                 <SkillBar title="Firebase" titleCss="firebase"/>
                 <SkillBar title="PHP" titleCss="php"/>
             </div>
+
+            <p className="skills-text">* I do not claim to know x% of the languages mentioned above. I just think I am able to x% of meeting a need with these languages.</p>
         </div>
     )
 }

@@ -58,4 +58,12 @@
 .skills-main-ctn .skills-ctn .skill-bar-ctn:last-of-type {
   margin-bottom: 0px;
 }
+
+.skills-main-ctn .skills-text {
+  width: calc(75% + 70px);
+  margin: auto;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: justify;
+}
 /*# sourceMappingURL=Skills.css.map */

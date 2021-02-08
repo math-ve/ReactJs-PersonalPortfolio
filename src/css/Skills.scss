@@ -52,4 +52,12 @@ $bg: #F2F4F9;
             margin-bottom: 0px;
         }
     }
+
+    .skills-text {
+        width: calc(75% + 70px);
+        margin: auto;
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: justify;
+    }
 }
