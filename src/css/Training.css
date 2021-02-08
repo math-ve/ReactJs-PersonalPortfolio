@@ -1,0 +1,113 @@
+.training-main-ctn {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.training-main-ctn .trainings-ctn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn {
+  background-color: #F05D7B;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 15px #f05d7a44;
+          box-shadow: 0px 10px 15px #f05d7a44;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 355px;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn {
+  background-color: white;
+  border-radius: 10px;
+  height: 89%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 25px;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .training-year {
+  color: #F05D7B;
+  font-weight: 500;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .training-subject {
+  color: #071D48;
+  margin-top: 7.5px;
+  font-weight: 600;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .training-place {
+  color: #071D48;
+  margin-top: 7.5px;
+  font-weight: 600;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .training-text {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2;
+  margin: 7.5px 0;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .list {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 7.5px;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .list .list-item {
+  width: 50%;
+  font-size: 15px;
+  color: #071D48;
+  font-weight: 600;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .list .list-item:nth-child(odd) {
+  width: 75%;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .list .list-item:nth-child(even) {
+  width: 25%;
+}
+
+.training-main-ctn .trainings-ctn .training-bg-ctn .training-ctn .list .list-item:nth-child(n+1) {
+  margin-top: 5px;
+}
+
+.training-main-ctn .trainings-ctn .training-1 {
+  width: 29%;
+}
+
+.training-main-ctn .trainings-ctn .training-2 {
+  width: 38%;
+}
+
+.training-main-ctn .trainings-ctn .training-3 {
+  width: 29%;
+}
+/*# sourceMappingURL=Training.css.map */

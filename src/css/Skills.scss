@@ -1,0 +1,55 @@
+$pink : #F05D7B;
+$blue: #071D48;
+$black: #000000;
+$bg: #F2F4F9;
+
+.skills-main-ctn {
+    width: 100%;
+    margin-top: 150px;
+
+    .skills-ctn {
+        width: 75%;
+        padding: 20px 35px;
+        border-radius: 10px;
+        background-color: white;
+        margin: auto;
+        margin-top: 50px;
+        box-shadow: 0px 10px 15px #f05d7a44;
+
+        .skill-bar-ctn {
+            margin-bottom: 25px;
+            display: flex;
+
+            .skill-bar-title {
+                color: $blue;
+                font-weight: 600;
+                font-size: 16px;
+                width: 18%;
+            }
+
+            .lvls-ctn {
+                width: 82%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .lvl-ctn {
+                    width: 17.5%;
+                    height: 6.5px;
+                    background-color: #CCCCCC;
+                    border-radius: 20px;
+
+                    .lvl {
+                        width: 0%;
+                        height: 100%;
+                        background-color: $pink;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+        .skill-bar-ctn:last-of-type {
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.socials-ctn {
+  width: 175px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: fixed;
+  background-color: white;
+  right: 0px;
+  top: 27.5%;
+  border-radius: 20px 0 0 20px;
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.212);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+.socials-ctn .linkedin-svg-ctn {
+  cursor: pointer;
+}
+
+.socials-ctn .github-svg-ctn {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Socials.css.map */

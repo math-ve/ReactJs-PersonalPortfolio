@@ -1,0 +1,22 @@
+$pink : #F05D7B;
+$blue: #071D48;
+$black: #000000;
+
+.app-main-ctn {
+    width: 1000px;
+    margin: auto;
+}
+
+.section-title-ctn {
+
+    .section-title {
+        color: $blue;
+    }
+
+    .title-border {
+        width: 50px;
+        height: 4px;
+        background-color: $pink;
+        border-radius: 25px;
+    }
+}

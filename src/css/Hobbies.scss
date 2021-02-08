@@ -1,0 +1,37 @@
+$pink : #F05D7B;
+$blue: #071D48;
+$black: #000000;
+$bg: #F2F4F9;
+
+.hobbies-main-ctn {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+    .hobbies-bg-ctn {
+        width: 40%;
+        margin: 50px auto;
+        background-color: $pink;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 10px;
+        box-shadow: 0px 10px 15px #f05d7a44;
+        height: 225px;
+
+        .hobbies-ctn {
+            background-color: white;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 10px;
+            height: 98%;
+
+            .hobby {
+                width: 50%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+    }
+}

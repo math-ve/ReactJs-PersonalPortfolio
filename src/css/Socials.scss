@@ -1,0 +1,21 @@
+.socials-ctn {
+    width: 175px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    right: 0px;
+    top: 27.5%;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.212);
+
+    .linkedin-svg-ctn {
+        cursor: pointer;
+    }
+    
+    .github-svg-ctn {
+        cursor: pointer;
+    }
+}

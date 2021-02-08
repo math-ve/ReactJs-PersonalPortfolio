@@ -1,0 +1,27 @@
+$pink : #F05D7B;
+$blue: #071D48;
+$black: #000000;
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F2F4F9;
+    overflow-x: hidden;
+    .pink-txt {
+        color: $pink;
+    }
+    .bold {
+        font-weight: 600;
+    }
+    a:visited {
+        color: black;
+    }
+}

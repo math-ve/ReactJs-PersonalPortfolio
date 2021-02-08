@@ -1,0 +1,61 @@
+.skills-main-ctn {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.skills-main-ctn .skills-ctn {
+  width: 75%;
+  padding: 20px 35px;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 10px 15px #f05d7a44;
+          box-shadow: 0px 10px 15px #f05d7a44;
+}
+
+.skills-main-ctn .skills-ctn .skill-bar-ctn {
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills-main-ctn .skills-ctn .skill-bar-ctn .skill-bar-title {
+  color: #071D48;
+  font-weight: 600;
+  font-size: 16px;
+  width: 18%;
+}
+
+.skills-main-ctn .skills-ctn .skill-bar-ctn .lvls-ctn {
+  width: 82%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-main-ctn .skills-ctn .skill-bar-ctn .lvls-ctn .lvl-ctn {
+  width: 17.5%;
+  height: 6.5px;
+  background-color: #CCCCCC;
+  border-radius: 20px;
+}
+
+.skills-main-ctn .skills-ctn .skill-bar-ctn .lvls-ctn .lvl-ctn .lvl {
+  width: 0%;
+  height: 100%;
+  background-color: #F05D7B;
+  border-radius: 20px;
+}
+
+.skills-main-ctn .skills-ctn .skill-bar-ctn:last-of-type {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=Skills.css.map */

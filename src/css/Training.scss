@@ -1,0 +1,95 @@
+$pink : #F05D7B;
+$blue: #071D48;
+$black: #000000;
+$bg: #F2F4F9;
+
+.training-main-ctn {
+    width: 100%;
+    margin-top: 150px;
+
+    .trainings-ctn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+
+        .training-bg-ctn {
+            background-color: $pink;
+            border-radius: 10px;
+            box-shadow: 0px 10px 15px #f05d7a44;
+            display: flex;
+            align-items: flex-end;
+            height: 355px;
+
+            .training-ctn {
+                background-color: white;
+                border-radius: 10px;
+                height: 89%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 15px 25px;
+
+                .training-year {
+                    color: $pink;
+                    font-weight: 500;
+                }
+                
+                .training-subject {
+                    color: $blue;
+                    margin-top: 7.5px;
+                    font-weight: 600;
+                }
+
+                .training-place {
+                    color: $blue;
+                    margin-top: 7.5px;
+                    font-weight: 600;
+                }
+
+                .training-text {
+                    font-size: 13px;
+                    font-weight: 300;
+                    text-align: center;
+                    line-height: 2;
+                    margin: 7.5px 0;
+                }
+
+                .list {
+                    width: 90%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 7.5px;
+
+                    .list-item {
+                        width: 50%;
+                        font-size: 15px;
+                        color: $blue;
+                        font-weight: 600;
+                    }
+                    .list-item:nth-child(odd) {
+                        width: 75%;
+                    }
+                    .list-item:nth-child(even) {
+                        width: 25%;
+                    }
+                    .list-item:nth-child(n+1) {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+
+        .training-1 {
+            width: 29%;
+        }
+
+        .training-2 {
+            width: 38%;
+        }
+
+        .training-3 {
+            width: 29%;
+        }
+    }
+}
