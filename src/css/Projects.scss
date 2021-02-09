@@ -9,6 +9,7 @@ $phone: 450px;
 .projects-main-ctn {
     width: 100%;
     margin-top: 150px;
+    visibility: hidden;
 
     .iwiish-ctn {
         .iwiish-title {
@@ -160,11 +161,13 @@ $phone: 450px;
     }
 }
 
-@media (max-width: $phone) {
+@media (max-width: $tablet) {
     .projects-main-ctn {
         margin-top: 100px;
-    }
+    }    
+}
 
+@media (max-width: $phone) {
     .iwiish-imgs-ctn {
         flex-wrap: wrap;
         justify-content: space-evenly !important;

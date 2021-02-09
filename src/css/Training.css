@@ -1,6 +1,7 @@
 .training-main-ctn {
   width: 100%;
   margin-top: 150px;
+  visibility: hidden;
 }
 
 .training-main-ctn .trainings-ctn {

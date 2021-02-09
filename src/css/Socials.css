@@ -17,6 +17,7 @@
   border-radius: 20px 0 0 20px;
   -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.212);
           box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.212);
+  visibility: hidden;
 }
 
 .socials-ctn .linkedin-svg-ctn {
@@ -27,7 +28,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .socials-ctn {
     display: none;
   }

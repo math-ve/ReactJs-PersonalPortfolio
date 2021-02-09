@@ -4,6 +4,8 @@ import { gsap } from "gsap"
 const Hobbies = (props) => {
 
     useEffect(() => {
+        gsap.set('.hobbies-main-ctn', {visibility: 'visible'})
+
         var tl1 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.hobbies-main-ctn',

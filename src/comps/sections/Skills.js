@@ -19,6 +19,8 @@ const Skills = (props) => {
     var tl_php = gsap.timeline({paused: true})
 
     useEffect(() => {
+        gsap.set('.skills-main-ctn' , {visibility: 'visible'})
+
         var tl1 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.skills-main-ctn',

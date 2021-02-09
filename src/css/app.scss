@@ -37,16 +37,15 @@ $phone: 450px;
     }
 }
 
-@media (max-width: $phone) {
+@media (max-width: $tablet) {
     .app-main-ctn {
         width: 90%;
     }
-
     .section-title {
         text-align: center;
     }
 
     .title-border {
         margin: auto;
-    }
+    }    
 }

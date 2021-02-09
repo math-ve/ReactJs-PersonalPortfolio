@@ -4,6 +4,8 @@ import { gsap } from "gsap"
 const Assets = (props) => {
 
     useEffect(() => {
+        gsap.set('.assets-main-ctn', {visibility: 'visible'})
+
         var tl1 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.assets-main-ctn',

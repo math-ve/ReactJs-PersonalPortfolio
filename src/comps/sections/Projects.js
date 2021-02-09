@@ -8,6 +8,8 @@ gsap.registerPlugin(ScrollTrigger)
 const Projects = (props) => {
 
     useEffect(() => {
+        gsap.set('.projects-main-ctn', {visibility: 'visible'})
+
         var tl1 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.projects-main-ctn',

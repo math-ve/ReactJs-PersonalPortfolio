@@ -4,6 +4,8 @@ import { gsap } from "gsap"
 const Training = (props) => {
 
     useEffect(() => {
+        gsap.set('.training-main-ctn', {visibility: 'visible'})
+
         var tl1 = gsap.timeline({
             scrollTrigger: {
                 trigger: '.training-main-ctn',

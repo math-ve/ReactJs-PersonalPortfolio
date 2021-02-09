@@ -4,6 +4,9 @@ import { gsap } from "gsap";
 const About = (props) => {
 
     useEffect(() => {
+        gsap.set('.about-main-ctn', {visibility: 'visible'})
+        gsap.set('.socials-ctn', {visibility: 'visible'})
+
         var tl1 = gsap.timeline()
             .from('.bg-circle-1', 6, {bottom: '-400px', right: '-100px', ease: 'expo', opacity: 0, scale: 2})
             .from('.bg-circle-2', 4.5, {top: '0px', left: '-500px', ease: 'expo', opacity: 0, scale: 2}, "-=6")

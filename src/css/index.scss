@@ -10,10 +10,6 @@ $tablet: 768px;
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: #F2F4F9;
     overflow-x: hidden;
@@ -26,4 +22,8 @@ body {
     a:visited {
         color: black;
     }
+}
+
+#root {
+    overflow-x: hidden;
 }

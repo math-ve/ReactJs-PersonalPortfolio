@@ -11,6 +11,7 @@ $phone: 450px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    visibility: hidden;
 
     .about-left-ctn {
         width: 55%;
@@ -163,6 +164,12 @@ $phone: 450px;
             text-align: center;
         }
     }
+}
+
+@media (max-width: $tablet) {
+    .about-btns-ctn {
+        width: 80% !important;
+    }    
 }
 
 @media (max-width: $phone) {

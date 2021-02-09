@@ -4,10 +4,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #F2F4F9;
   overflow-x: hidden;
@@ -23,5 +19,9 @@ body .bold {
 
 body a:visited {
   color: black;
+}
+
+#root {
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=index.css.map */

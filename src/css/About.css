@@ -10,6 +10,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  visibility: hidden;
 }
 
 .about-main-ctn .about-left-ctn {
@@ -216,6 +217,12 @@
   font-size: 14px;
   line-height: 2.5;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-btns-ctn {
+    width: 80% !important;
+  }
 }
 
 @media (max-width: 450px) {
