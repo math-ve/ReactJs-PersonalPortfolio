@@ -40,4 +40,13 @@
   text-align: center;
   font-size: 15px;
 }
+
+@media (max-width: 768px) {
+  .hobbies-main-ctn {
+    margin-top: 100px;
+  }
+  .hobbies-main-ctn .hobbies-bg-ctn {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=Hobbies.css.map */

@@ -61,3 +61,25 @@ $bg: #F2F4F9;
         text-align: justify;
     }
 }
+
+@media (max-width: 768px) {
+    .skills-main-ctn {
+        margin-top: 100px;
+
+        .skills-ctn {
+            width: 90%;
+            padding: 20px 10px;
+
+            .skill-bar-ctn {
+
+                .skill-bar-title {
+                    width: 36%;
+                }
+
+                .lvls-ctn {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}

@@ -93,3 +93,23 @@ $bg: #F2F4F9;
         }
     }
 }
+
+@media (max-width: 768px) {
+    .training-main-ctn {
+        margin-top: 100px;
+
+        .trainings-ctn {
+            flex-direction: column;
+
+            .training-bg-ctn {
+                width: 90%;
+                margin: auto;
+                height: auto;
+                margin-top: 15px;
+            }
+            .training-bg-ctn:first-child {
+                margin-top: 0px;
+            }
+        }
+    }
+}

@@ -35,3 +35,13 @@ $bg: #F2F4F9;
         }
     }
 }
+
+@media (max-width: 768px) {
+    .hobbies-main-ctn {
+        margin-top: 100px;
+
+        .hobbies-bg-ctn {
+            width: 90%;
+        }
+    }
+}

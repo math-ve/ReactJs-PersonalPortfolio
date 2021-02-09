@@ -11,4 +11,10 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+@media (max-width: 768px) {
+  .footer-text {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */

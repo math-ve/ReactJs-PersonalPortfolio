@@ -3,6 +3,8 @@ $blue: #071D48;
 $black: #000000;
 $bg: #F2F4F9;
 
+$tablet: 768px;
+
 .about-main-ctn {
     display: flex;
     justify-content: space-between;
@@ -158,6 +160,73 @@ $bg: #F2F4F9;
             font-size: 14px;
             line-height: 2.5;
             text-align: center;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .about-main-ctn {
+        flex-direction: column;
+
+        .about-left-ctn {
+            order: 2;
+            width: 90%;
+            height: auto;
+
+            .about-text-ctn {
+
+                .about-text-1 {
+                    text-align: center;
+                }
+                .about-text-2 {
+                    text-align: center;
+                }
+            }
+
+            .about-btns-ctn {
+                width: 90%;
+                margin: auto;
+            }
+        }
+
+        .about-right-ctn {
+            order: 1;
+            width: 80%;
+            height: 300px;
+
+            .about-img-ctn {
+                
+                .about-img {
+                    width: 200px;
+                    height: 200px;
+
+                }
+                .bg-circle-1 {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 165px;
+                    background-color: #071d4838;
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 30px;
+                    right: 20px;
+                }
+                .bg-circle-2 {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 165px;
+                    background-color: #F05D7B38;
+                    position: absolute;
+                    z-index: -1;
+                    top: 30px;
+                    left: 30px;
+                }   
+            }
+        }
+
+        .about-cover-ctn {
+            order: 3;
+            margin-top: 40px;
         }
     }
 }

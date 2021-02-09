@@ -11,7 +11,7 @@ import { isMobile } from "react-device-detect";
 
 function App() {
 
-  if (!isMobile)
+  if (1)
     return (
       <div className="app-main-ctn">
         <About />
@@ -24,12 +24,12 @@ function App() {
         <Footer />
       </div>
     );
-  else
-      return (
-        <div className="mobile-view">
-          <p>My portfolio is not responsive yet but it shortly will !</p>
-        </div>
-      )
+  // else
+  //     return (
+  //       <div className="mobile-view">
+  //         <p>My portfolio is not responsive yet but it shortly will !</p>
+  //       </div>
+  //     )
 }
 
 export default App;

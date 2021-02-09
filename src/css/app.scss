@@ -2,6 +2,8 @@ $pink : #F05D7B;
 $blue: #071D48;
 $black: #000000;
 
+$tablet: 768px;
+
 .app-main-ctn {
     width: 1000px;
     margin: auto;
@@ -31,5 +33,19 @@ $black: #000000;
 
     p {
         text-align: center;
+    }
+}
+
+@media (max-width: $tablet) {
+    .app-main-ctn {
+        width: 90%;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .title-border {
+        margin: auto;
     }
 }

@@ -126,4 +126,24 @@
 .assets-main-ctn .assets-ctn .assets-bg-ctn .assets-languages-ctn .languages-ctn .language:last-of-type {
   margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+  .assets-main-ctn {
+    margin-top: 100px;
+  }
+  .assets-main-ctn .assets-ctn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .assets-main-ctn .assets-ctn .assets-bg-ctn {
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .assets-main-ctn .assets-ctn .assets-bg-ctn:first-child {
+    margin-top: 0px;
+  }
+}
 /*# sourceMappingURL=Assets.css.map */

@@ -188,4 +188,34 @@
 .projects-main-ctn .projects-ctn .project-ctn .project-btns-ctn .project-github-btn:hover .github-2-svg {
   fill: white;
 }
+
+@media (max-width: 768px) {
+  .projects-main-ctn {
+    margin-top: 100px;
+  }
+  .iwiish-imgs-ctn {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+  }
+  .iwiish-imgs-ctn .iwiish-img-ctn {
+    width: 45% !important;
+  }
+  .projects-ctn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects-ctn .project-ctn {
+    width: 90% !important;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .projects-ctn .project-ctn:first-child {
+    margin-top: 0px;
+  }
+}
 /*# sourceMappingURL=Projects.css.map */

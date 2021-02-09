@@ -110,4 +110,25 @@
 .training-main-ctn .trainings-ctn .training-3 {
   width: 29%;
 }
+
+@media (max-width: 768px) {
+  .training-main-ctn {
+    margin-top: 100px;
+  }
+  .training-main-ctn .trainings-ctn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .training-main-ctn .trainings-ctn .training-bg-ctn {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 15px;
+  }
+  .training-main-ctn .trainings-ctn .training-bg-ctn:first-child {
+    margin-top: 0px;
+  }
+}
 /*# sourceMappingURL=Training.css.map */

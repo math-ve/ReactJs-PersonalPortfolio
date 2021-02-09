@@ -26,4 +26,10 @@
 .socials-ctn .github-svg-ctn {
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .socials-ctn {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Socials.css.map */

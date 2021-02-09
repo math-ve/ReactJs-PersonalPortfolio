@@ -66,4 +66,20 @@
   font-size: 14px;
   text-align: justify;
 }
+
+@media (max-width: 768px) {
+  .skills-main-ctn {
+    margin-top: 100px;
+  }
+  .skills-main-ctn .skills-ctn {
+    width: 90%;
+    padding: 20px 10px;
+  }
+  .skills-main-ctn .skills-ctn .skill-bar-ctn .skill-bar-title {
+    width: 36%;
+  }
+  .skills-main-ctn .skills-ctn .skill-bar-ctn .lvls-ctn {
+    width: 60%;
+  }
+}
 /*# sourceMappingURL=Skills.css.map */

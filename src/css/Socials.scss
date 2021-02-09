@@ -19,3 +19,9 @@
         cursor: pointer;
     }
 }
+
+@media (max-width : 768px) {
+    .socials-ctn {
+        display: none;
+    }
+}

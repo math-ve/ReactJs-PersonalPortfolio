@@ -156,3 +156,31 @@ $bg: #F2F4F9;
         }
     }
 }
+
+@media (max-width: 768px) {
+    .projects-main-ctn {
+        margin-top: 100px;
+    }
+
+    .iwiish-imgs-ctn {
+        flex-wrap: wrap;
+        justify-content: space-evenly !important;
+
+        .iwiish-img-ctn {
+            width: 45% !important;
+        }
+    }
+
+    .projects-ctn {
+        flex-direction: column;
+
+        .project-ctn {
+            width: 90% !important;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .project-ctn:first-child {
+            margin-top: 0px;
+        }
+    }
+}

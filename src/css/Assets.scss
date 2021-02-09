@@ -88,3 +88,22 @@ $bg: #F2F4F9;
         }
     }
 }
+
+@media (max-width: 768px) {
+    .assets-main-ctn {
+        margin-top: 100px;
+
+        .assets-ctn {
+            flex-direction: column;
+
+            .assets-bg-ctn {
+                width: 90%;
+                margin: auto;
+                margin-top: 15px;
+            }
+            .assets-bg-ctn:first-child {
+                margin-top: 0px;
+            }
+        }
+    }
+}

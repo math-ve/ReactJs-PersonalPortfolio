@@ -32,4 +32,16 @@
 .mobile-view p {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .app-main-ctn {
+    width: 90%;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .title-border {
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=app.css.map */
