@@ -246,7 +246,7 @@
     text-align: center;
   }
   .about-main-ctn .about-left-ctn .about-btns-ctn {
-    width: 100%;
+    width: 100% !important;
     margin: auto;
   }
   .about-main-ctn .about-right-ctn {
