@@ -4,6 +4,7 @@ $black: #000000;
 $bg: #F2F4F9;
 
 $tablet: 768px;
+$phone: 450px;
 
 .about-main-ctn {
     display: flex;
@@ -164,7 +165,7 @@ $tablet: 768px;
     }
 }
 
-@media (max-width: $tablet) {
+@media (max-width: $phone) {
     .about-main-ctn {
         flex-direction: column;
 
@@ -184,7 +185,7 @@ $tablet: 768px;
             }
 
             .about-btns-ctn {
-                width: 90%;
+                width: 100%;
                 margin: auto;
             }
         }

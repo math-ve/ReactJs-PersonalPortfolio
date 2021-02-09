@@ -67,7 +67,7 @@
   text-align: justify;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .skills-main-ctn {
     margin-top: 100px;
   }

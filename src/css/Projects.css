@@ -189,7 +189,7 @@
   fill: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .projects-main-ctn {
     margin-top: 100px;
   }

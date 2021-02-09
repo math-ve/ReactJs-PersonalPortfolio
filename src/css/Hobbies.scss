@@ -3,6 +3,9 @@ $blue: #071D48;
 $black: #000000;
 $bg: #F2F4F9;
 
+$tablet: 768px;
+$phone: 450px;
+
 .hobbies-main-ctn {
     width: 100%;
     margin-top: 150px;
@@ -36,7 +39,7 @@ $bg: #F2F4F9;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $phone) {
     .hobbies-main-ctn {
         margin-top: 100px;
 

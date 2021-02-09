@@ -10,26 +10,18 @@ import Socials from "./comps/Socials";
 import { isMobile } from "react-device-detect";
 
 function App() {
-
-  if (1)
-    return (
-      <div className="app-main-ctn">
-        <About />
-        <Projects />
-        <Skills />
-        <Training />
-        <Assets />
-        <Hobbies />
-        <Socials />
-        <Footer />
-      </div>
-    );
-  // else
-  //     return (
-  //       <div className="mobile-view">
-  //         <p>My portfolio is not responsive yet but it shortly will !</p>
-  //       </div>
-  //     )
+  return (
+    <div className="app-main-ctn">
+      <About />
+      <Projects />
+      <Skills />
+      <Training />
+      <Assets />
+      <Hobbies />
+      <Socials />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

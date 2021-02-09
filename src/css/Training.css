@@ -111,7 +111,7 @@
   width: 29%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .training-main-ctn {
     margin-top: 100px;
   }

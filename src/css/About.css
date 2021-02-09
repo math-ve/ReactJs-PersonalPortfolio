@@ -218,7 +218,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .about-main-ctn {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -239,7 +239,7 @@
     text-align: center;
   }
   .about-main-ctn .about-left-ctn .about-btns-ctn {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .about-main-ctn .about-right-ctn {

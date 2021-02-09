@@ -1,3 +1,6 @@
+$tablet: 768px;
+$phone: 450px;
+
 .socials-ctn {
     width: 175px;
     height: 80px;
@@ -20,7 +23,7 @@
     }
 }
 
-@media (max-width : 768px) {
+@media (max-width : $phone) {
     .socials-ctn {
         display: none;
     }

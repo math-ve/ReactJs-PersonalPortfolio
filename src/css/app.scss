@@ -3,6 +3,7 @@ $blue: #071D48;
 $black: #000000;
 
 $tablet: 768px;
+$phone: 450px;
 
 .app-main-ctn {
     width: 1000px;
@@ -36,7 +37,7 @@ $tablet: 768px;
     }
 }
 
-@media (max-width: $tablet) {
+@media (max-width: $phone) {
     .app-main-ctn {
         width: 90%;
     }
