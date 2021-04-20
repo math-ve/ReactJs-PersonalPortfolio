@@ -3,6 +3,7 @@ $blue: #071D48;
 $black: #000000;
 $bg: #F2F4F9;
 
+$laptop: 1030px;
 $tablet: 768px;
 $phone: 450px;
 
@@ -166,10 +167,16 @@ $phone: 450px;
     }
 }
 
+@media (max-width: $laptop) {
+    .about-btns-ctn {
+        width: 60% !important;
+    }     
+}
+
 @media (max-width: $tablet) {
     .about-btns-ctn {
         width: 80% !important;
-    }    
+    }
 }
 
 @media (max-width: $phone) {

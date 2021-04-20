@@ -219,6 +219,12 @@
   text-align: center;
 }
 
+@media (max-width: 1030px) {
+  .about-btns-ctn {
+    width: 60% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .about-btns-ctn {
     width: 80% !important;

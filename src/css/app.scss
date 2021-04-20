@@ -2,6 +2,7 @@ $pink : #F05D7B;
 $blue: #071D48;
 $black: #000000;
 
+$laptop: 1030px;
 $tablet: 768px;
 $phone: 450px;
 
@@ -34,6 +35,12 @@ $phone: 450px;
 
     p {
         text-align: center;
+    }
+}
+
+@media (max-width: $laptop) {
+    .app-main-ctn {
+        width: 905px;
     }
 }
 
